@@ -18,4 +18,5 @@ it("has a text area that user can type in", () => {
   wrapped
     .find("textarea")
     .stimulate("change", { target: { value: "new comment" } });
+  wrapped.update();
 });
