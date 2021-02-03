@@ -1,4 +1,4 @@
-import commentsReducer from "../../reducers/comments";
+import commentsReducer from "../comments";
 
 import { SAVE_COMMENT } from "../../actions/types";
 
