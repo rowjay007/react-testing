@@ -8,7 +8,6 @@ ReactDOM.render(
   <Roots>
     <BrowserRouter>
       <Route path="/" component={App} />
-      <App />
     </BrowserRouter>
   </Roots>,
   document.querySelector("#root")
