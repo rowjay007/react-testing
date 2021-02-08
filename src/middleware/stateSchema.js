@@ -1,0 +1,22 @@
+/* eslint-disable import/no-anonymous-default-export */
+export default {
+  $schema: "http://json-schema.org/draft-04/schema#",
+  type: "object",
+  properties: {
+    comments: {
+      type: "array",
+      items: [
+        {
+          type: "string",
+        },
+        {
+          type: "string",
+        },
+      ],
+    },
+    auth: {
+      type: "boolean",
+    },
+  },
+  required: ["comments", "auth"],
+};
